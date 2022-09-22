@@ -1,10 +1,11 @@
 import React from 'react'
-import HandDetector from './pages/HandDetector'
+import FightingGame from './pages/FightingGame'
+import Generator from './pages/Generator'
 
 const App = () => {
   return (
     <div>
-      <HandDetector />
+      <Generator />
     </div>
   )
 }
