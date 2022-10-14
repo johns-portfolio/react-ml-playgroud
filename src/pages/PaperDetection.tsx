@@ -44,7 +44,7 @@ const PaperDetection = () => {
 
   useEffect(() => {
     cocoSsd.load().then((net) => {
-      console.log('🔥 handpose loaded!', net)
+      console.log('🔥 cocoSsd loaded!', net)
       if (webcamRef.current && canvasRef.current) {
         setInterval(async () => {
           await detectObject(net)
